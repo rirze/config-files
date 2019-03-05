@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+i=$1
+filename=${i%.*}
+echo "Compiling $1"
+gfortran -c $1
+echo "Creating executable ${filename}.out"
+gfortran -o "${filename}.out" $1
+
+
+
+

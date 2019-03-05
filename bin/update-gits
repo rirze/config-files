@@ -1,0 +1,15 @@
+#!/bin/bash
+bold=`tput bold`
+normal=`tput sgr0`
+
+for d in ~/.emacs.d/extensions/*/
+do
+    cd $d
+#    if [[ -n $(git status -s) ]]; then
+       echo -e "${bold}$d${normal}"
+       git pull || { echo-e "${bold}Forcing a git reset${normal}"; git reset --hard; git pull; }
+ #   fi
+    cd ..
+done
+
+       
