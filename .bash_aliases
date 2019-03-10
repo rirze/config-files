@@ -19,7 +19,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-#alias op='xdg-open'
+alias op='xdg-open'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -29,6 +29,6 @@ alias phgrep='cat ~/.persistent_history|grep --color'
 alias emaxt='emacsclient -t'
 alias emax='emacsclient -cnqu'
 
-#alias ip='curl ifconfig.me'
+alias ip='curl ifconfig.me'
 alias arch='getconf LONG_BIT'
 alias distro='cat /etc/issue'
