@@ -37,6 +37,7 @@ shopt -s cdspell
 
 #use extra globing features. See man bash, search extglob.
 shopt -s extglob
+
 #include .files when globbing.
 shopt -s dotglob
 
@@ -156,8 +157,6 @@ export PATH=/home/chronos/.local/bin:$PATH
 # needed for IRAF
 #export iraf="/iraf/iraf"
 #export IRAFARCH="linux"
-
-
 
 # if [ -s ~/.Xmodmap ]; then
 #     xmodmap ~/.Xmodmap

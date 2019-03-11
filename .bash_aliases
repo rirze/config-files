@@ -25,6 +25,8 @@ alias op='xdg-open'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
+alias wsl-alert='powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\scheedalla\alert.ps1" -msgtype "$([ $? = 0 ] && echo Info || echo Error)" -title "WSL Terminal" -msg "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*wsl-alert$//'\'')"'
+
 alias phgrep='cat ~/.persistent_history|grep --color'
 alias emaxt='emacsclient -t'
 alias emax='emacsclient -cnqu'
