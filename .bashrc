@@ -174,5 +174,5 @@ export PATH=/home/chronos/.local/bin:$PATH
 eval "$(fasd --init auto)"
 
 # ssh-keys
-eval $(ssh-agent) > /dev/null
-ssh-add ~/.ssh/git-key  ~/.ssh/bitbucket &> /dev/null
+# eval $(ssh-agent) > /dev/null
+# ssh-add ~/.ssh/git-key  ~/.ssh/bitbucket &> /dev/null
