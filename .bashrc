@@ -169,6 +169,7 @@ export PATH=/home/chronos/.local/bin:$PATH
 
 # autojump requires [https://github.com/wting/autojump]
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
+[[ -s /usr/share/autojump/autojump.sh ]] && source /usr/share/autojump/autojump.sh
 
 # fasd
 eval "$(fasd --init auto)"
