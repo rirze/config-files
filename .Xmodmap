@@ -1,9 +1,15 @@
-! Unmap capslock
+! clear existing mod config
 clear Lock
-keycode 66 = Hyper_L
+clear mod1
+clear mod2
 
 ! Leave mod4 as windows key _only_
 remove mod4 = Hyper_L
 
-! Set mod3 to capslock
+keycode 113 = Alt_L
+keycode 64  = Meta_R
+keycode 66 = Hyper_L
+
+add mod1 = Meta_R Meta_L
+add mod2 = Alt_L Alt_R
 add mod3 = Hyper_L
