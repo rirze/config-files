@@ -1,15 +1,23 @@
 ! clear existing mod config
-clear Lock
+clear shift
+clear lock
 clear mod1
 clear mod2
+clear mod3
+clear mod4
+clear mod5
 
 ! Leave mod4 as windows key _only_
 remove mod4 = Hyper_L
 
-keycode 113 = Alt_L
-keycode 64  = Meta_R
+keycode 113 = Alt_R
+keycode 64  = Meta_L
 keycode 66 = Hyper_L
 
+add shift = Shift_L
+add lock = Shift_R
 add mod1 = Meta_R Meta_L
 add mod2 = Alt_L Alt_R
-add mod3 = Hyper_L
+add mod3 = Hyper_L Hyper_R
+add mod4 = Super_L Super_R
+add mod5 = Num_Lock
