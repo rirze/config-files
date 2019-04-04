@@ -34,3 +34,5 @@ alias emax='emacsclient -cnqu'
 alias ip='curl ifconfig.me'
 alias arch='getconf LONG_BIT'
 alias distro='cat /etc/issue'
+
+alias wbwget='wget -m -p -E -k' # Download entire site for off-net viewing
