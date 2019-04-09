@@ -21,7 +21,7 @@
 /mnt/c/Users/scheedalla/Downloads/Input-Font/Input_Fonts/Input|2.5|1552761500
 /home/chron/cart/thor/system_config/crontab/ip/root_primary_crontab|3.24483|1552934686
 /home/chron/cart/idletitans/package-lock.json|1|1554049486
-/home/chron/websites/mywizzard/clapat.ro/themes/wizzard/index.html|1|1554384159
+/home/chron/websites/mywizzard/clapat.ro/themes/wizzard/index.html|3.24483|1554470589
 /etc/environment|2|1552827691
 /home/chronos/Downloads/input09.txt|1|1551544916
 /home/chron/cart/cronv|18.6093|1552611109
@@ -34,7 +34,7 @@
 /home/chron/.Xmodmap|7.02285|1554072906
 /home/chronos/Downloads/bcmwl-kernel-source_6.30.223.141+bdcom-0ubuntu2_amd64.deb|1|1551544916
 /home/chronos/docs/Important Documents/Banks/TD|2.9|1551586169
-/home/chron/.emacs.d/init.el|4.09525|1552761926
+/home/chron/.emacs.d/init.el|7.57608|1554689031
 /home/chron/cart/thor/system_config/crontab/c2/root_base_crontab|4.7887|1552934686
 /mnt/c/Users/scheedalla/Downloads/launch.json|2|1552568299
 /home/chron/scheedella/Documents|4.7887|1553884317
@@ -52,7 +52,7 @@
 /home/chron/cart/thor/portal/launch.json|1|1552568406
 /home/chron/cart/idletitans/launch.json|2|1553443721
 /mnt/c/Users/scheedalla/Documents|4.99752|1552598312
-/home/chron/cart/thor|30.5084|1554137828
+/home/chron/cart/thor|32.6623|1554689031
 /home/chronos/playground/awscert/chapter3/apacheserver/terraform.tfstate|1|1551116944
 /home/chronos/cart/idletitans/auth.json|1|1551361331
 /home/chronos/Downloads/wxWidgets-3.0.3|1|1551544916
@@ -60,7 +60,7 @@
 /home/chron/scheedella/Downloads|3.24483|1552319102
 /home/chron/cart/thor/system_config/crontab/c2|15.4311|1552424000
 /home/chron/cart/thor/docs/_build/html/source/cronjobs.html|3.83446|1552678786
-/mnt/c/Users/scheedalla|29.6435|1554250352
+/mnt/c/Users/scheedalla|30.6066|1554393013
 /home/chronos/Downloads/assets.tgz|1|1551544916
 /home/chronos/Downloads/14.0.4734.1000_ProfessionalPlus_volume_x86_en-us.iso|1|1551544916
 /home/chron/cart/idletitans/auth.json|1|1553443753
@@ -83,7 +83,7 @@
 /home/chronos/playground/awscert/cat|2|1551189522
 /home/chronos/Downloads/revature|1|1551544916
 /home/chronos/Downloads/pokemon-conquest.tar.gz|1|1551544916
-/home/chron/websites/mywizzard/clapat.ro/themes/wizzard|2|1554384159
+/home/chron/websites/mywizzard/clapat.ro/themes/wizzard|4.09525|1554470593
 /home/chron/cart/thor/system_config/utils/generate_regression_result_doc.py|5.92866|1554139519
 /home/chronos/Downloads/opia3d/opia/Template/index.html|2.9|1551631870
 /home/chronos/Downloads/ideaIU-2018.3.2.tar.gz|1|1551544916
@@ -105,9 +105,11 @@
 /home/chron/cart/thor/docs/source|1|1552668786
 /home/chronos/Pictures|3.83446|1551110785
 /home/chronos/Downloads/linuxx64_12201_database|1|1551544916
+/home/chron/cart/thor/system_config/bin/get_distro_lists.py|4.56988|1554470837
 /home/chron/.fonts|2|1552829066
 /home/chron/cart/thor/docs/_build/html/index.html|5.7549|1552669204
 /home/chronos/Downloads/AWS Certified Solutions Architect Associate Exam Practice Questions|1|1551544916
+/proc/sys/kernel/osrelease|2.5|1554688986
 /home/chronos/.profile|2|1551803949
 /home/chronos/bin/fcompile|1|1551803763
 /home/chronos/playground/awscert/chapter3|2.9|1551116979
@@ -163,7 +165,7 @@
 /home/chron/cart/thor/system_config/crontab|7.96539|1553046446
 /home/chron/.dotnet/tools/strans|3.55301|1553883325
 /home/chron/cart/thor/system_config/utils|9.67698|1554250320
-/home/chron/cart/thor/system_config/bin|1|1552398071
+/home/chron/cart/thor/system_config/bin|8.33627|1554763536
 /home/chronos/Downloads/gsconnectandyholmes.github.io.v19.shell-extension.zip|1|1551544916
 /mnt/c/Users/scheedalla/Documents/daily.html|3.24483|1552499744
 /home/chron/cart/cronv/Gopkg.toml|1|1552600303
@@ -201,7 +203,7 @@
 /home/chron/cart/thor/docs/scripts|14.0722|1552618041
 /home/chron/cart/cronv/daily.html|5.19762|1552499325
 /home/chronos/Downloads/Resume-Jul18.pdf|1|1551544916
-/home/chron/.ssh/git-key.pub|5.7549|1552334723
+/home/chron/.ssh/git-key.pub|6.42105|1554399915
 /mnt/c/Program FIles (x86)/Xming|6.26134|1552353499
 /home/chron/cart/thor/system_config|1|1552398074
 /home/chron/cart/image/font/gofont/ttfs/Go-Mono-Bold-Italic.ttf|1|1552442147
@@ -229,7 +231,7 @@
 /home/chronos/Downloads/ansible-TetraTutorials-src.zip|1|1551544916
 /home/chronos/Downloads/opia3d/opia/Template/js|2.5|1551636121
 /home/chron/go/src/github.com/takumakanari|2.5|1552611068
-/home/chron/.emacs.d|10.6651|1552496974
+/home/chron/.emacs.d|10.7589|1554388506
 /home/chronos/playground/awscert|6.26134|1551189535
 /home/chron/cart/image/font/gofont/ttfs/Go-Mono-Italic.ttf|1|1552442147
 /home/chron/cart/image/font/gofont/ttfs/Go-Bold-Italic.ttf|1|1552442147
@@ -273,6 +275,7 @@
 /home/chronos/Downloads/gsconnect.andyholmes.github.io.zip|1|1551544916
 /home/chronos/Downloads/eclipse|1|1551544916
 /home/chron/cart/cronv/Gopkg.lock|2.5|1552600396
+/home/chron/cart/thor/system_config/config/ssa_source.sh|3.55301|1554470545
 /home/chronos/Downloads/opia3d/opia/.git|1|1551631824
 /home/chronos/playground/awscert/chapter3/apacheserver/main.tf|1|1551116944
 /home/chron/cart/image/font/gofont/ttfs/Go-Bold.ttf|1|1552442147
@@ -314,7 +317,7 @@
 /home/chronos/Downloads/mathew-schwartz-731844-unsplash.jpg|2.5|1551571202
 /home/chronos/cart/multiple-cursors.el/features|1|1551198069
 /home/chronos/Downloads/vagrant_2.2.2_linux_amd64.zip|1|1551544916
-/home/chron/.ssh/git-key|4.33944|1552494163
+/home/chron/.ssh/git-key|4.56988|1554399844
 /home/chron/bin|4.7887|1553883443
 /home/chronos/.emacs.d/elpa/multiple-cursors-20180913.1237|2.9|1551198027
 /home/chronos/Downloads/node_modules|2|1551545038
