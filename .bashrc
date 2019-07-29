@@ -177,3 +177,9 @@ eval "$(fasd --init auto)"
 # ssh-keys
 # eval $(ssh-agent) > /dev/null
 # ssh-add ~/.ssh/git-key  ~/.ssh/bitbucket &> /dev/null
+
+PATH="/home/chron/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/chron/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/chron/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/chron/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/chron/perl5"; export PERL_MM_OPT;

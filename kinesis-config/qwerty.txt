@@ -1,0 +1,32 @@
+[delete]>[lctrl]
+
+[end]>[caps]
+[home]>[lalt]
+[pup]>[lwin]
+[pdown]>[ralt]
+
+[lalt]>[obrack]
+[ralt]>[cbrack]
+[rwin]>[cbrack]
+
+* {lctrl}>{-lshift}{9}{+lshift}
+* {rctrl}>{-lshift}{0}{+lshift}
+
+[lctrl]>[9]
+[rctrl]>[0]
+
+[bspace]>[space]
+[space]>[bspace]
+
+{obrack}>{-lshift}{=}{+lshift}
+[cbrack]>[hyphen]
+{hyphen}>{-lshift}{hyphen}{+lshift}
+
+{caps}>{-lalt}{x}{+lalt}
+{lshift}{left}>{home}
+{lshift}{right}>{end}
+
+{rshift}{up}>{pup}
+{rshift}{down}>{pdown}
+
+{intl-\}>{-lctrl}{-lalt}{delete}{+lalt}{+lctrl}
