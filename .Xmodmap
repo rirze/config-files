@@ -7,12 +7,9 @@ clear mod3
 clear mod4
 clear mod5
 
-! Leave mod4 as windows key _only_
-remove mod4 = Hyper_L
-
-keycode 113 = Alt_R
-keycode 64  = Meta_L
-keycode 66 = Hyper_L
+keycode 108 = Alt_R  ! use right Alt key
+keycode 64  = Meta_L  ! use left Alt Key
+keycode 66 = Hyper_L  ! use Caps Lock Key
 
 add shift = Shift_L
 add lock = Shift_R
