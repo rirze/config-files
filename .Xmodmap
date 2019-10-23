@@ -7,9 +7,12 @@ clear mod3
 clear mod4
 clear mod5
 
-keycode 108 = Alt_R  ! use right Alt key
-keycode 64  = Meta_L  ! use left Alt Key
-keycode 66 = Hyper_L  ! use Caps Lock Key
+! use right Alt key
+keycode 108 = Alt_R
+! use left Alt Key
+keycode 64  = Meta_L
+! use Caps Lock Key
+keycode 66 = Hyper_L
 
 add shift = Shift_L
 add lock = Shift_R
