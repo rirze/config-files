@@ -163,9 +163,9 @@ export PATH=/home/chronos/.local/bin:$PATH
 #export iraf="/iraf/iraf"
 #export IRAFARCH="linux"
 
-# if [ -s ~/.Xmodmap ]; then
-#     xmodmap ~/.Xmodmap
-# fi
+if [ -s ~/.Xmodmap ]; then
+    xmodmap ~/.Xmodmap
+fi
 
 # autojump requires [https://github.com/wting/autojump]
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
