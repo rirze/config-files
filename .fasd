@@ -1,5 +1,5 @@
 /home/chron/cart/thor/portal/.vscode/launch.json|2.25|1552576652
-/home/chronos/.bashrc|3.06557|1571851344
+/home/chronos/.bashrc|3.6866|1572298886
 /mnt/c/Users/scheedalla/.vscode|2.61|1553564703
 /etc/apt-fast.conf|3.19771|1556644687
 /mnt/c/Users/scheedalla/Downloads/emacs-26.1/INSTALL|2.25|1553357937
@@ -12,8 +12,8 @@
 /home/chron/cart/thor/system_config/crontab/ip/ssa_secondary_crontab|2.92035|1552934686
 /home/chron/cart/TabNine/rodata|4.49777|1557517614
 /home/chron/kinesis-config/qwerty.txt|1.8|1559827402
-/home/chronos/cart/sgp4-rs/src|4.33944|1571851320
-/home/chronos/.Xmodmap|3.39177|1571875355
+/home/chronos/cart/sgp4-rs/src|4.56988|1571934972
+/home/chronos/.Xmodmap|4.44801|1572299155
 /home/chron/cart/thor/system_config/crontab/c2/root_primary_crontab|4.30983|1552934686
 /mnt/c/Users/scheedalla/Downloads/Input-Font/Input_Fonts/Input|2.25|1552761500
 /home/chron/cart/thor/system_config/crontab/ip/root_primary_crontab|2.92035|1552934686
@@ -45,12 +45,14 @@
 /home/chron/cart/thor/system_config/crontab/ip/ssa_base_crontab|2.92035|1552934686
 /home/chron/cart/idletitans/package.json|1.8|1554049531
 /home/chron/cart/cronv_bin|4.85102|1552612779
+/home/chronos/bin/trim|2.9|1572024226
 /home/chron/cart/idletitans/launch.json|1.8|1553443721
 /mnt/c/Users/scheedalla/Documents|4.49777|1552598312
 /home/chron/cart/thor|36.3028|1563293444
 /home/chronos/Downloads/opia3d/opia/Template/dark-intro.html|2.61|1551631870
 /home/chron/scheedella/Downloads|2.92035|1552319102
 /home/chron/cart/thor/system_config/crontab/c2|13.888|1552424000
+/home/chronos/cart/exercism/rust/sublist|4.99752|1572222238
 /home/chron/cart/thor/docs/_build/html/source/cronjobs.html|3.45101|1552678786
 /mnt/c/Users/scheedalla|44.5589|1564157531
 /home/chron/windows/Users/scheedalla/Downloads/hlissner-emacs-snippets-python-mode.zip|2.25|1555524344
@@ -70,12 +72,14 @@
 /home/chron/cart/thor/installation/vault|1.8|1558548683
 /home/chron/cart/image|2.92035|1552442147
 /home/chronos/playground/awscert/cat|1.8|1551189522
+/home/chronos/.emacs.d/elpy|2.9|1572100844
 /home/chron/cart/thor/system_config/bin/unlock_encrypted_partitions_advantec.sh|3.45101|1556908651
 /home/chron/websites/mywizzard/clapat.ro/themes/wizzard|3.68573|1554470593
 /home/chron/cart/thor/system_config/utils/generate_regression_result_doc.py|5.33579|1554139519
 /home/chronos/Downloads/opia3d/opia/Template/index.html|2.61|1551631870
 /mnt/c/Program FIles (x86)|1.8|1552338823
 /home/chron/sshkeys/privatekey.asc|2.25|1552403223
+/home/chronos/cart/oil|6.72884|1572298364
 /home/chron/cart/cronv/cronv/main.go|2.61|1552610411
 /home/chronos/docs/Important Documents/Banks/TD/fees.pdf|1.8|1551575119
 /home/chron/xsel|2.61|1552314422
@@ -96,6 +100,7 @@
 /home/chron/cart/thor/system_config/netdata/weather_sensor_test.py|3.19771|1563383419
 /home/chronos/Downloads|8.275|1571700424
 /home/chronos/playground/awscert/chapter6|2.25|1551140718
+/home/chronos/.bash_functions|2.9|1572023724
 /home/chron/cart/thor/installation/vault/advantec_decryption.key|4.30983|1561384282
 /home/chronos/Pictures|3.45101|1551110785
 /home/chron/cart/thor/system_config/bin/get_distro_lists.py|4.11289|1554470837
@@ -110,7 +115,7 @@
 /home/chron/cart/thor/system_config/bin/obtain_decryption_key_advantec.sh|3.19771|1556909190
 /home/chron/cart/thor/system_config/netdata/hvac_temp.chart.py|5.77895|1563391802
 /proc/sys/kernel/osrelease|3.19771|1556636382
-/home/chronos/.profile|3.13979|1571875693
+/home/chronos/.profile|4.72027|1572292609
 /home/chronos/playground/awscert/chapter3|2.61|1551116979
 /home/chron/cart/croncal|5.77895|1552400151
 /home/chron/cart/thor/docs/scripts/cp_month.html|6.18971|1552677973
@@ -136,6 +141,7 @@
 /home/chron/cart/thor/docs/scripts/hs_hour.html|6.18971|1552677973
 /home/chron/cart/thor/docs/scripts/cp_year.html|6.18971|1552677973
 /home/chron/cart/TabNine/bss|2.61|1557517689
+/home/chronos/.bash_aliases|2|1572023779
 /home/chron/cart/thor/system_config/netdata/hvac_temp_test.py|4.11289|1563391802
 /home/chron/bin/fcompile|1.8|1557931086
 /home/chron/scheedella/Downloads/emacs-26.1|1.8|1552478617
@@ -146,6 +152,7 @@
 /home/chron/cart/thor/docs/scripts/hs_day.html|6.18971|1552677973
 /usr/share/fonts/truetype/input|2.25|1552761500
 /home/chronos/cart/rust-sgp4|3.95785|1571700566
+/home/chronos/cart/oil/INSTALL.txt|2.5|1572292834
 /usr/bin/emacsclient26|1.8|1555509674
 /mnt/c/Users/scheedalla/Downloads/emacs-26.1|10.4894|1555519239
 /home/chronos/.fasd|1.8|1551803795
@@ -153,6 +160,7 @@
 /home/chron/cart/thor/scripts/copy_relevant_files.sh|3.68573|1558448277
 /home/chron/cart/thor/system_config/netdata/netdata.conf.old|5.01799|1562697587
 /home/chronos/Downloads/sgp4|8.04629|1571700424
+/home/chronos/cart/sgp4-rs/Cargo.toml|1|1571934972
 /home/chronos/.zshrc|3.19771|1551803338
 /home/chron/cart/thor/system_config/netdata/roof.chart.py|3.68573|1563388750
 /bin/sh|2.25|1558707888
@@ -165,10 +173,12 @@
 /mnt/c/Users/scheedalla/Documents/daily.html|2.92035|1552499744
 /home/chron/cart/TabNine|15.119|1557517689
 /home/chron/cart/thor/system_config/netdata/roof_test.py|3.68573|1563388750
-/home/chronos/cart/sgp4-rs|7.3048|1571759001
+/home/chronos/cart/sgp4-rs|10.7589|1571944690
+/home/chronos/cart/oil/README.md|1|1572292756
 /home/chronos/Downloads/mongodb-org-server_4.0.6_amd64.deb|2.25|1551544916
 /home/chron/.ssh/bitbucket.pub|5.33579|1557256507
 /home/chron/cart/cronv/README.md|2.92035|1552597533
+/home/chronos/cart/exercism/rust/sublist/src/lib.rs|1|1572222238
 /mnt/c/Users/scheedalla/Documents/day.html|6.93726|1552612328
 /mnt/c/Users/scheedalla/Documents/cronhtml|6.05596|1552654281
 /home/chron/cart/idletitans/modules/heroes.js|7.82201|1553517172
@@ -181,7 +191,9 @@
 /home/chron/cart/thor/installation/main.yml|50.7952|1560359775
 /home/chron/cart/boomerang|3.9055|1557500947
 /home/chron/cart/TabNine/stringslist|4.11289|1557506359
+/tmp|1|1572289846
 /home/chron/cart/cronv/example/crontab|2.61|1552610522
+/home/chronos/.emacs.d/elpy/rpc-venv/elpy-rpc-python-path-command|2.9|1572102126
 /home/chron/TabNine|4.11289|1561989644
 /mnt/c/Users/scheedalla/Downloads/emacs-26.1/install|3.9055|1553360982
 /home/chron/cart/thor/test|1.8|1552502672
@@ -191,6 +203,8 @@
 /home/chron/cart/thor/system_config/lint_check.sh|3.19771|1556567744
 /home/chron/cart/thor/system_config/bin/ssa_webservice.py|5.4876|1559310149
 /home/chronos/Downloads/sgp4/TestDTM|3.06557|1571700411
+/tmp/rtl8812AU_8821AU_linux|3.24483|1572289978
+/tmp/rtl8812AU_8821AU_linux/Makefile.dkms|1|1572289892
 /home/chron/.config/fontconfig/fonts.conf|1.8|1552827651
 /home/chron/cart/thor/installation/vault.yml|9.51345|1562079931
 /home/chron/cart/idletitans|18.6717|1554338375
@@ -206,15 +220,17 @@
 /home/chronos/Downloads/opia3d|2.25|1551545054
 /home/chron/cart/thor/installation/temp_c2_install_notes.txt|2.61|1561992965
 /home/chronos/Downloads/sgp4/SGP4DC|3.06557|1571700411
+/home/chronos/.emacs.d/elpy/new|2.5|1572100844
 /home/chron/cart/thor/system_config/installation_files/hp/ilorest_chif.so|1.8|1562596647
 /home/chron/bin/strans|2.92035|1553883325
 /home/chronos/.emacs.d/elpa|1.8|1551197810
 /home/chron/cart/cronv/day.html|2.25|1552598173
 /home/chron/cart/test|1.8|1553443659
 /home/chron/websites/index.html|2.61|1554344372
+/home/chronos/.emacs.d/elpy/rpc-venv|4.09525|1572102126
 /home/chronos/Downloads/opia3d/opia|4.11289|1551631830
 /etc/shells|1.8|1551111509
-/home/chronos/.emacs.d|5.91911|1551810931
+/home/chronos/.emacs.d|6.08805|1572100819
 /home/chron/websites/mywizzard|2.25|1554384115
 /home/chron/.ssh/known_hosts|10.0943|1562018738
 /home/chronos/Downloads/sgp4/TestMSIS|3.06557|1571700411
@@ -236,10 +252,13 @@
 /mnt/c/Users/scheedalla/Downloads/TrueType/TrueType/IBM-Plex-Mono|2.25|1552760477
 /home/chron/cart/keylayout|6.81847|1555426347
 /home/chron/bin/steptry.sh|2.25|1557931071
-/home/chronos|2.5|1571700643
+/home/chronos|3.24483|1572298901
 /home/chron/cart/thor/installation/get_objects.sh|4.30983|1556909565
 /mnt/c/Users/scheedalla/Downloads/xqliu-dotfiles master.fonts|1.8|1552829066
 /home/chronos/Downloads/sgp4/astiod|3.06557|1571700411
+/home/chronos/cart/sgp4-rs/Cargo.lock|1|1571934972
+/home/chronos/cart/oil/build|1|1572298364
+/home/chronos/cart/fzf|3.55301|1572298896
 /home/chron/kinesis-config|2.61|1557930746
 /usr/bin/emacs-26.226|1.8|1555509674
 /home/chron|5.33579|1555521077
@@ -252,6 +271,7 @@
 /home/chronos/.emacs.d/.gitignore|1.8|1551189822
 /home/chron/scheedella/cart|2.92035|1552569583
 /home/chronos/Downloads/sgp4/eopspw|3.06557|1571700411
+/home/chronos/.bash_environment|1|1572023697
 /etc/apt/sources.list|2.92035|1556645716
 /usr/bin/emacs26|1.8|1555509674
 /home/chron/cart/idletitans/node_modules/.staging|1.8|1554049329
@@ -260,6 +280,7 @@
 /home/chron/cart/thor/system_config/config/ssa_source.sh|3.19771|1554470545
 /home/chron/cart/idletitans/modules/views.js|5.01799|1554048744
 /home/chron/cart/thor/installation/vaultpass.txt|29.1191|1562167432
+/home/chronos/cart/satellite-rs|5.39002|1571955203
 /home/chron/cart/thor/docs/scripts/cronv|2.61|1552612779
 /home/chron/.emacs.d/snippets/python-mode|2.61|1555519640
 /mnt/c/Program FIles (x86)/Xming/fonts/TTF|1.8|1552338960
@@ -273,13 +294,15 @@
 /home/chron/cart/thor/system_config/templates/alert_email_template.j2|5.4876|1555351467
 /home/chron/cart/thor/system_config/od_md_correlation/.idea|2.25|1559310255
 /home/chronos/Downloads/sgp4/SGP4|3.06557|1571700411
+/home/chronos/cart/oil/install|2.9|1572292745
+/home/chronos/cart/exercism/rust/sublist/src|2.9|1572220659
 /home/chron/scheedella/Downloads/MOCK_DATA.csv|1.8|1553883963
 /home/chronos/Downloads/sgp4/MSIS_Vers|3.06557|1571700411
 /home/chronos/Downloads/sgp4/TestSGP4|3.06557|1571700411
 /home/chron/cart/thor/system_config/installation_files/hp|7.28184|1562642490
 /home/chronos/Downloads/sgp4/DTM_12|3.06557|1571700411
 /home/chron/cart/thor/installation/inventory.ini|13.7115|1556221884
-/home/chronos/cart|7.38178|1571700652
+/home/chronos/cart|9.41999|1572299155
 /home/chron/cart/thor/docs|14.0044|1552750175
 /mnt/c/Users/scheedalla/Downloads/microsoft.gpg|1.8|1552573155
 /home/chron/cart/thor/portal/.vscode|1.8|1552568406
@@ -294,6 +317,7 @@
 /home/chronos/playground/awscert/chapter6/bucket-website|8.89431|1551189073
 /home/chron/cart|14.0044|1563293444
 /home/chron/cart/idletitans/.vscode|2.25|1553956514
+/etc/issue|1|1572024041
 /home/chron/cart/thor/netdata_docker/docker_login.sh|2.92035|1562339282
 /home/chron/cart/idletitans/bot.js|5.91911|1554338375
 /usr/share/doc/autojump/README.Debian|2.25|1553091826
@@ -309,6 +333,7 @@
 /home/chron/cart/idletitans/modules|7.61061|1553438820
 /home/chron/cart/thor/portal|9.76662|1555442938
 /home/chron/cart/cronv/cronv/cronv_bin|1.8|1552597702
+/home/chronos/cart/exercism/rust|1|1572220660
 /home/chron/cart/thor/system_config/netdata/netdata.conf.|2.25|1562697587
 /home/chronos/cart/idletitans/objects/accounts.json|1.8|1551364732
 /mnt/c/Windows/System32|1.8|1561742443

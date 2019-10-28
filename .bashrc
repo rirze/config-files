@@ -126,7 +126,7 @@ if ! shopt -oq posix; then
 fi
 
 #
-complete -o default -o nospace -W "$(/usr/bin/env ruby -ne 'puts $_.split(/[,\s]+/)[1..-1].reject{|host| host.match(/\*|\?/)} if $_.match(/^\s*Host\s+/);' < $HOME/.ssh/known_hosts )" scp sftp ssh
+# complete -o default -o nospace -W "$(/usr/bin/env ruby -ne 'puts $_.split(/[,\s]+/)[1..-1].reject{|host| host.match(/\*|\?/)} if $_.match(/^\s*Host\s+/);' < $HOME/.ssh/known_hosts )" scp sftp ssh
 
 # Stuff to do on PROMPT_COMMAND
 run_on_prompt_command()
@@ -163,9 +163,7 @@ export PATH=/home/chronos/.local/bin:$PATH
 #export iraf="/iraf/iraf"
 #export IRAFARCH="linux"
 
-if [ -s ~/.Xmodmap ]; then
-    xmodmap ~/.Xmodmap
-fi
+[ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap
 
 # autojump requires [https://github.com/wting/autojump]
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
@@ -183,3 +181,5 @@ PERL5LIB="/home/chron/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB
 PERL_LOCAL_LIB_ROOT="/home/chron/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/chron/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/chron/perl5"; export PERL_MM_OPT;
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
