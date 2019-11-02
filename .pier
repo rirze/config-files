@@ -1,0 +1,8 @@
+[scripts.sgp4-commit]
+alias = 'sgp4-commit'
+command = 'THE_TIME=$(stat -c %y $(find cpp/ -type f -printf "%T@ %p\n" | sort -n | sed -r "s/^[0-9.]+\s+//" | tail -n 1 | xargs -I{} ls "{}")) GIT_AUTHOR_DATE=$THE_TIME GIT_COMMITTER_DATE=$THE_TIME git commit -a --author="David A. Vallado <dvallado@centerforspace.com>"'
+
+
+[scripts.latest-file]
+alias = 'latest-file'
+command = 'find -type f -printf "%T@ %p\n" | sort -n | sed -r "s/^[0-9.]+\s+//" | tail -n 1 | xargs -I{} ls -l "{}"'

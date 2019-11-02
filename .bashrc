@@ -163,7 +163,7 @@ export PATH=/home/chronos/.local/bin:$PATH
 #export iraf="/iraf/iraf"
 #export IRAFARCH="linux"
 
-[ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap
+# [ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap
 
 # autojump requires [https://github.com/wting/autojump]
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
@@ -171,6 +171,7 @@ export PATH=/home/chronos/.local/bin:$PATH
 
 # fasd
 eval "$(fasd --init auto)"
+unalias sd
 
 # ssh-keys
 # eval $(ssh-agent) > /dev/null

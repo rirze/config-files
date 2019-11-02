@@ -1,1 +1,2 @@
-export TF_PLUGIN_CACHE_DIR=~/.terraform/plugins
+export TF_PLUGIN_CACHE_DIR=$HOME/.terraform/plugins
+export PIER_CONFIG_PATH=$HOME/.pier
