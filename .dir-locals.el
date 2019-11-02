@@ -2,4 +2,4 @@
 ;;; For more information see (info "(emacs) Directory Variables")
 
 ((magit-status-mode
-  (magit-todos-exclude-globs "*cart/*")))
+  (magit-todos-exclude-globs "*cart/*" "*Android/*" "*Downloads/*")))
