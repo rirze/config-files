@@ -21,7 +21,7 @@ shopt -s histappend
 # cd into directories by just typing name of directory
 shopt -s autocd
 
-# append to the history file, don't overwrite it
+# when exiting shell, append to the history file, don't overwrite it
 shopt -s histappend
 
 # check the window size after each command and, if necessary,
@@ -125,7 +125,7 @@ if ! shopt -oq posix; then
     fi
 fi
 
-#
+
 # complete -o default -o nospace -W "$(/usr/bin/env ruby -ne 'puts $_.split(/[,\s]+/)[1..-1].reject{|host| host.match(/\*|\?/)} if $_.match(/^\s*Host\s+/);' < $HOME/.ssh/known_hosts )" scp sftp ssh
 
 # Stuff to do on PROMPT_COMMAND
@@ -151,6 +151,7 @@ export PATH=/home/chronos/.local/bin:$PATH
 
 #export NVM_DIR="/home/chronos/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 #source /home/chronos/cart/git-subrepo/.rc
 
 ## Bashmarks exec file
@@ -166,21 +167,21 @@ export PATH=/home/chronos/.local/bin:$PATH
 # [ -f ~/.Xmodmap ] && xmodmap ~/.Xmodmap
 
 # autojump requires [https://github.com/wting/autojump]
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
-[[ -s /usr/share/autojump/autojump.sh ]] && source /usr/share/autojump/autojump.sh
+# [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
+# [[ -s /usr/share/autojump/autojump.sh ]] && source /usr/share/autojump/autojump.sh
 
 # fasd
 eval "$(fasd --init auto)"
+bind -x '"\C-x\C-j": "fasd-complete"'
 unalias sd
 
-# ssh-keys
-# eval $(ssh-agent) > /dev/null
-# ssh-add ~/.ssh/git-key  ~/.ssh/bitbucket &> /dev/null
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+ssh-add ~/.ssh/git-ssh-key &> /dev/null
 
-PATH="/home/chron/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/chron/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/chron/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/chron/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/chron/perl5"; export PERL_MM_OPT;
+# PATH="/home/chron/perl5/bin${PATH:+:${PATH}}"; export PATH;
+# PERL5LIB="/home/chron/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+# PERL_LOCAL_LIB_ROOT="/home/chron/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+# PERL_MB_OPT="--install_base \"/home/chron/perl5\""; export PERL_MB_OPT;
+# PERL_MM_OPT="INSTALL_BASE=/home/chron/perl5"; export PERL_MM_OPT;
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
