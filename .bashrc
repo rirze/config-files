@@ -126,8 +126,6 @@ if ! shopt -oq posix; then
 fi
 
 
-# complete -o default -o nospace -W "$(/usr/bin/env ruby -ne 'puts $_.split(/[,\s]+/)[1..-1].reject{|host| host.match(/\*|\?/)} if $_.match(/^\s*Host\s+/);' < $HOME/.ssh/known_hosts )" scp sftp ssh
-
 # Stuff to do on PROMPT_COMMAND
 run_on_prompt_command()
 {
@@ -176,12 +174,6 @@ bind -x '"\C-x\C-j": "fasd-complete"'
 unalias sd
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
-ssh-add ~/.ssh/git-ssh-key &> /dev/null
-
-# PATH="/home/chron/perl5/bin${PATH:+:${PATH}}"; export PATH;
-# PERL5LIB="/home/chron/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-# PERL_LOCAL_LIB_ROOT="/home/chron/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-# PERL_MB_OPT="--install_base \"/home/chron/perl5\""; export PERL_MB_OPT;
-# PERL_MM_OPT="INSTALL_BASE=/home/chron/perl5"; export PERL_MM_OPT;
+[ -f ~/.ssh/git-ssh-key ] && ssh-add ~/.ssh/git-ssh-key &> /dev/null
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
