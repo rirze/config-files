@@ -1,0 +1,19 @@
+{
+  "memory": 10,
+  "launchAction": "HIDE",
+  "buildStream": "stable",
+  "showConsole": true,
+  "languageCode": "default",
+  "clientId": "fc3ec464-d31e-4b9b-a281-fb6d215227b9",
+  "javaArgs": "-Xmx8G -Xms8G -XX:+UseConcMarkSweepGC -XX:+UseParNewGC",
+  "latestNewsArticle": 156,
+  "launchToModpacks": true,
+  "javaVersion": "default",
+  "autoAcceptRequirements": false,
+  "javaBitness": true,
+  "launcherSettingsVersion": "1",
+  "windowType": "DEFAULT",
+  "windowWidth": 0,
+  "windowHeight": 0,
+  "enableStencilBuffer": true
+}
