@@ -5,7 +5,7 @@
   "showConsole": true,
   "languageCode": "default",
   "clientId": "fc3ec464-d31e-4b9b-a281-fb6d215227b9",
-  "javaArgs": "-Xmx8G -Xms8G -XX:+UseConcMarkSweepGC -XX:+UseParNewGC",
+  "javaArgs": "-XX:+UseConcMarkSweepGC -XX:+UseParNewGC",
   "latestNewsArticle": 156,
   "launchToModpacks": true,
   "javaVersion": "default",
